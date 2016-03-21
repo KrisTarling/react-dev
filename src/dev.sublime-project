@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"index.html",
+				"LICENSE",
+				"npm-debug.log",
+				"src/style.css",
+				"src/bootstrap.css"
+			],
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"client"
+			],
+			"path": "/Users/christarling/Repos/Dev"
+		}
+	]
+}
