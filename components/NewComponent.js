@@ -10,7 +10,7 @@ class NewComponent extends Component {
     return (
         <div>
     	  <h1>Ready to go!</h1>
-          <button onClick={this.handleClick.bind(this)} >example button - does nothing</button>
+          <button onClick={this.handleClick.bind(this)} >dummy button</button>
         </div>
     )
   }

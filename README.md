@@ -1,6 +1,14 @@
 # react-dev
 
-## My reactjs development environment.
+A quickstart react & redux development environment.
+---
+
+features:
+
+* hot reloading
+* ES6, sass & haml
+* auto js linting
+* react & redux dev tools integration
 
 uses:
 
@@ -9,7 +17,6 @@ uses:
 * webpack
 * gulp
 * babel
+* bootstrap
 * sass
-* haml
-
-and probably more to come as time goes on.
+* haml (not really necessary for many apps)
