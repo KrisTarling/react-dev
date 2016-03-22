@@ -4,10 +4,9 @@ import logger from 'redux-logger'
 
 // add middlewear
 let finalCreateStore = compose(
-	applyMiddleware(logger())
-
+	applyMiddleware(logger()) // development browser logging for redux
 )(createStore)
 
-export default function configureStore(initialState = {todos: []}) { // set initial state, or make it an empty todo
+export default function configureStore(initialState = {stateNameHere: ''}) { // set initial state, or make an empty state
   return finalCreateStore(reducer, initialState)
 }

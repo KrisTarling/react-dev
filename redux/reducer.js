@@ -1,24 +1,11 @@
-function getId(state) {
-	return state.todos.reduce((maxId, todo) => {
-		return Math.max(todo.id, maxId)
-	}, -1) + 1
-}
 
 let reducer = function(state, action) {
 	switch (action.type) {
-		case 'ADD_TODO':
-
-			return (
-			Object.assign({}, state, {
-				todos: [{
-					text: action.text,
-					completed: false,
-					id: getId(state)
-				}, ...state.todos]
-			})
-			)
+		case 'ACTION_NAME':
+			return Object.assign({}, state, { }) // return empty array which is filled with previous array state + an action
+		
 		default:
-			return state;
+			return state; // if no matching actions, return original state - required
 	}
 }
 

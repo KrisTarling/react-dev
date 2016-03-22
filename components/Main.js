@@ -5,10 +5,9 @@ import configureStore from '../redux/store'
 import { Provider } from 'react-redux'
 
 let initialState = {
-	todos: [{
-		id: 0,
-		completed: false,
-		text: 'initial todo'
+	stateobject1: [{
+	}],
+	stateobject2: [{
 	}]
 }
 
@@ -16,7 +15,7 @@ let store = configureStore(initialState)
 
 
 render (
-	<Provider store={store}>
+	<Provider store={store} >
 	<App />
 	</ Provider >,
 	document.getElementById('app')

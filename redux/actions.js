@@ -1,8 +1,15 @@
 let actions = {
-	addTodo: function(text) {
+	actionName: function(val) {
 		return {
-			type: 'ADD_TODO',
-			text: text
+			type: 'ACTION_NAME',
+			val: val
+		}
+	},
+
+	actionName2: function(val) {
+		return {
+			type: 'ACTION_NAME2',
+			val: val
 		}
 	}
 }
