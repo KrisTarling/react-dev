@@ -7,6 +7,6 @@ let finalCreateStore = compose(
 	applyMiddleware(logger()) // development browser logging for redux
 )(createStore)
 
-export default function configureStore(initialState = {stateNameHere: ''}) { // set initial state, or make an empty state
+export default function configureStore(initialState = {}) {
   return finalCreateStore(reducer, initialState)
 }
