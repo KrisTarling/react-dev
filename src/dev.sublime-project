@@ -8,7 +8,8 @@
 				"LICENSE",
 				"npm-debug.log",
 				"src/style.css",
-				"src/bootstrap.css"
+				"src/bootstrap.css",
+				"src/dev.sublime-project"
 			],
 			"folder_exclude_patterns":
 			[

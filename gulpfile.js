@@ -10,7 +10,7 @@ var WebpackDevServer = require("webpack-dev-server");
 
 
 gulp.task('haml', function () {
-  gulp.src('./index.haml')
+  gulp.src('./src/index.haml')
     .pipe(haml())
     .pipe(gulp.dest('./client/'));
 });
